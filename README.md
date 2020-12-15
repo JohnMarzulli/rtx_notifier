@@ -32,6 +32,9 @@ Installation is reasonable simple.
 1. Unzip the folder and place `geckodriver.exe` into the folder `rtx_notifier`
 1. Run the tool using `python3 rtx_notifier.py` using the command prompt.
 
+**NOTE**: Please make sure that the Windows App Execution Alias for Python is disabled.
+**NOTE**: Some installs of Python for Windows do not have the command `python3`. In this case use `python rtx_notifier.py`
+
 Please note that this runs multiple, concurrent browsers simultaneously.
 
 If a card is detected as available, the bot will attempt to add the product to your cart and pause all of the other browsers.
